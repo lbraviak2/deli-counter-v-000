@@ -25,4 +25,5 @@ def now_serving(katz_deli)
     return puts "The line is currently empty."
   else
     katz_deli.each_char { |i| puts "Currently serving #{i}."  }
+  end
 end
