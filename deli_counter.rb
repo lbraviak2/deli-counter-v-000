@@ -13,6 +13,7 @@ def take_a_number(katz_deli, name)
   x=0
   order = "The line is currently: "
   while x < LEN
+    puts x
     order << currentORDER[x+1]
     x = x+1
     return order
