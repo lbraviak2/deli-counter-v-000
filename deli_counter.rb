@@ -16,15 +16,5 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  katz_deli.append(name)
-  x=0
-  order = "The line is currently: "
-
-  while x < katz_deli.length()
-    order << "#{x+1}. #{katz_deli[x+1]}"
-    x = x+1
-  end
-
-  return puts order
-
+  katz_deli.push(name)
 end
