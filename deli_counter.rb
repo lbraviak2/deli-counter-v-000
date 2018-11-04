@@ -11,6 +11,7 @@ def line(katz_deli)
       order << "#{x+1}. #{katz_deli[x+1]}"
       x = x+1
     end
+    return puts order
   end
 end
 
@@ -23,7 +24,7 @@ def take_a_number(katz_deli, name)
     order << "#{x+1}. #{katz_deli[x+1]}"
     x = x+1
   end
-
+  
   return puts order
-
+  
 end
