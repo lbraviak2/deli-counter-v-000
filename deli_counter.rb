@@ -2,6 +2,6 @@
 def line(katz_deli)
   katz_deli = []
   if katz_deli.length() == 0
-    return puts "line is empty"
+    return puts "The line is currently empty."
   end
 end
