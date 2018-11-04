@@ -17,4 +17,5 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
+  return puts "Welcome #{katz_deli[0]}. You are number 1 in line."
 end
