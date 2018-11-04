@@ -14,6 +14,7 @@ def take_a_number(katz_deli, name)
   while x < (currentORDER.length())
     order << currentORDER[x+1]
     x = x+1
+    return order
   end
   return puts order
 end
