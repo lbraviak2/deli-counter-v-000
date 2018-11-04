@@ -19,3 +19,7 @@ def take_a_number(katz_deli, name)
   katz_deli.push(name)
   katz_deli.each{ |i| puts "Welcome, #{i}. You are number #{katz_deli.index(i)+1} in line."}
 end
+
+def now_serving(katz_deli)
+  line(katz_deli)
+end
