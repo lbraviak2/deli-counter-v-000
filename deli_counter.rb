@@ -15,7 +15,7 @@ def take_a_number(katz_deli, name)
   while x < katz_deli.length()
     order << "#{x+1}. #{katz_deli[x+1]}"
     x = x+1
-    return order
+    return puts order
   end
   return puts order
 end
