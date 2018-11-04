@@ -6,7 +6,7 @@ def line(katz_deli)
     return puts "The line is currently empty."
   else
     x=0
-    order = "The line is currently: "
+    order = "The line is currently:"
     while x < katz_deli.length()
       order << " #{x+1}. #{katz_deli[x]}"
       x = x+1
