@@ -15,9 +15,9 @@ def line(katz_deli)
   end
 end
 
+x=0
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  x=0
   while x < katz_deli.length()
     return puts "Welcome, #{katz_deli[x]}. You are number #{x+1} in line."
     x = x+1
