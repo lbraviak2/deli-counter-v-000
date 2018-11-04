@@ -12,7 +12,7 @@ def take_a_number(katz_deli, name)
   x=0
   while x < (currentORDER.length() + 1)
     order = "The line is currently: "
-    order <<< currentORDER[x+1]
+    order << currentORDER[x+1]
     x = x+1
   end
   return puts order
