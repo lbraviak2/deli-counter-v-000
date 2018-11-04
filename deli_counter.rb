@@ -15,11 +15,10 @@ def line(katz_deli)
   end
 end
 
-x=0
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  while x < katz_deli.length()
-    return puts "Welcome, #{katz_deli[x]}. You are number #{x+1} in line."
-    x = x+1
+  katz_deli.each{ |name|
+    return puts "Welcome, #{name}. You are number #{katz_deli.index(name)} in line."  
+  }
   end
 end
