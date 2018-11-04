@@ -20,10 +20,10 @@ def take_a_number(katz_deli, name)
   katz_deli.each{ |i| puts "Welcome, #{i}. You are number #{katz_deli.index(i)+1} in line."}
 end
 
-def now_serving(katz_deli)
-  if katz_deli.length() == 0
+def now_serving(other_deli)
+  if other_deli.length() == 0
     return puts "The line is currently empty."
   else
-    katz_deli.each { |i| puts "Currently serving #{i}."}
+    other_deli.each { |i| puts "Currently serving #{i}."}
   end
 end
