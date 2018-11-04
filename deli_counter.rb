@@ -8,7 +8,7 @@ def line(katz_deli)
     x=0
     order = "The line is currently: "
     while x < katz_deli.length()
-      order << "#{x+1}. #{katz_deli[x]} "
+      order << " #{x+1}. #{katz_deli[x]}"
       x = x+1
     end
     return puts order
