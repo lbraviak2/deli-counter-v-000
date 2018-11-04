@@ -17,5 +17,9 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  return puts "Welcome #{katz_deli[0]}. You are number 1 in line."
+  x=0
+  while x < katz_deli.length()
+    return puts "Welcome, #{katz_deli[x]}. You are number #{x} in line."
+    x = x+1
+  end
 end
