@@ -17,7 +17,7 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  katz_deli.each{ |name|
-    return puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
+  katz_deli.each{ |i|
+    return puts "Welcome, #{i}. You are number #{katz_deli.index(i)+1} in line."
   }
 end
